@@ -9,6 +9,8 @@ import UIKit
 
 class UserListTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var titleLbl: UILabel!
+    @IBOutlet weak var emailLbl: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
